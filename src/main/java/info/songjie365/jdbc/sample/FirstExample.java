@@ -14,12 +14,10 @@ public class FirstExample {
 	//jdbc driver和database url
 	private static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
 	private static final String DB_RUL = "jdbc:mysql://localhost:3306/emp?useUnicode=true&characterEncoding=utf8";
-//	private static final String DB_RUL = "jdbc:mysql://localhost:3306/emp";
 	
 	//账号
 	private static final String USER = "root";
 	private static final String PASS = "123456";
-	
 	
 	public static void main(String[] args){
 		Connection conn = null;
@@ -72,7 +70,5 @@ public class FirstExample {
 				}
 			}
 		}
-		
 	}
-	
 }

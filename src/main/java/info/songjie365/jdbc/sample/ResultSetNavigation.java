@@ -70,8 +70,8 @@ public class ResultSetNavigation {
 			}
 				
 		}
-		
 	}
+	
 	/**
 	 *
 	 * 打印数据
@@ -83,5 +83,4 @@ public class ResultSetNavigation {
 			System.out.println("first:" + first);
 			System.out.println("last:" + last);
 	}
-		
 }
